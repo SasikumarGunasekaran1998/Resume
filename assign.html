@@ -1,0 +1,465 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Resume</title>
+    <style>
+    * {
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 150px; /* Full width */
+  background-color: #ddd;/* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px;
+  color: white; /* White text color */
+}
+.ide{
+  padding-left:  90px;
+  margin-bottom: 170px;
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;}
+.menu {
+  width: 25%;
+  float: left;
+}
+.main {
+  width: 75%;
+  float: left;
+}
+    html { overflow-y: scroll; overflow-x:hidden;margin:0;
+    padding:0;
+    height:100%; }
+    body{
+      background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("/Users/sasikumargunasekaran/Desktop/pre.png");
+}
+    .edu_tab{
+      width: 60%;
+      height: 60%;
+      border: 2px solid black;
+      }
+      .int{
+        text-indent: 800px;
+      }
+      .img{
+        float: right;
+        padding: 5px;
+        border-radius: 50%;
+        background-image: url("/Users/sasikumargunasekaran/Desktop/pre.png");
+        height: 120px;
+        width: 120px;
+      }
+      .title{
+        text-align: center;
+        color:brown;
+        font-size: 40px;
+        font-family: sans-serif;
+      }
+      .splitright{
+        float: right;
+        width : 60%;
+        margin-left: 40px;
+      }
+      .splitleft{
+        background-color: #e9f7f3;
+        width : 35%;
+        height: 950px;
+        border-radius: 20px;
+      }
+      .centeredl{
+        text-align: center;
+        padding: 40px;
+      }
+      .proglanl{
+        text-align: justify;
+      }
+      .header{
+        text-align: justify;
+      }
+      #title{
+        background-image: url("/Users/sasikumargunasekaran/Desktop/pre.jpg");
+      }
+      .line{
+        height: 20px;
+        background-image: url("/Users/sasikumargunasekaran/Desktop/pre.jpg");
+      }
+      .objective{
+        background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url("/Users/sasikumargunasekaran/Desktop/pre.png");
+
+      }
+      .info{
+        background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url("/Users/sasikumargunasekaran/Desktop/pre.png");
+        font-family: sans-serif;
+        color: #c318cc;
+      }
+      .info2{
+        color: #cc186c;
+      }
+      .dec{
+        color: brown;
+        font-family: sans-serif;
+      }
+      .auth{
+        background-color: #d6d6d6;
+        margin-left: 100px;
+      }
+      .table{
+        background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url("/Users/sasikumargunasekaran/Desktop/pre.png");
+        width: 60%;
+        height: 60%;
+      }
+      .software{
+        background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url("/Users/sasikumargunasekaran/Desktop/pre.png");
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        margin-bottom : 2px;
+      }
+      .progress{
+         align-content: center;
+         margin-left: 630px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div>
+      <div id = "title">
+        <b><h1 class = "title">RESUME</h1></b>
+        <progress class="progress"></progress>
+      </div>
+
+      <div>
+      <img src="myimage.jpg" width="100" height="100" class = "img"/>
+      <h2 class="info">PERSONAL INFO</h2>
+      <div>
+          <div class="">
+            <table class="header">
+              <tr>
+                <th>
+                  Name :
+                  </th>
+                  <td>
+                    G.Sasikumar
+                    </td>
+
+                </tr>
+                <tr>
+                  <th>
+                    Email :
+                    </th>
+                    <td>
+                      Sasikumar.Gunasekaran1998@gmail.com
+                      </td>
+                </tr>
+                <tr>
+                    <th>
+                      Mobile No :
+                      </th>
+                      <td>
+                        9080085840
+                        </td>
+                  </tr>
+              </table>
+          </div>
+          <br />
+          <div class="line">
+
+          </div>
+          <div>
+            <h2 class="info">
+              OBJECTIVE
+            </h2>
+            <i><p class="objective">
+              "Dedicated and curious learner with proved success in problem-solving and project development.
+              Seeking an opportunity to learn and grow in an organisation. "
+            </p></i>
+          </div>
+        </div>
+      </div>
+          <div class = "splitright">
+            <div class="centered">
+              <div class="table">
+                <h2 class="info2">EDUCATIONAL QUALIFICATION</h2>
+                <table class = "edu_tab">
+                     <tr class = "edu_tab">
+                       <th class = "edu_tab">
+                          Qualification
+                         </th>
+                         <th class = "edu_tab">
+                           Institution
+                           </th>
+                           <th class = "edu_tab">
+                              Board/University
+                             </th>
+                             <th class = "edu_tab">
+                               Year Of Passing
+                               </th>
+                               <th class = "edu_tab">
+                                 Aggregate
+                               </th>
+                              </tr>
+                               <tr class = "edu_tab">
+                                 <td class = "edu_tab">
+                                   X
+                                 </td>
+                                 <td class = "edu_tab">
+                                   Mahindra World School
+                                 </td>
+                                 <td class = "edu_tab">
+                                   CBSE
+                                 </td>
+                                 <td class = "edu_tab">
+                                   2014
+                                 </td>
+                                 <td class = "edu_tab">
+                                   84
+                                 </td>
+                               </tr>
+                               <tr class = "edu_tab">
+                                 <td class = "edu_tab">
+                                   XII
+                                 </td>
+                                 <td class = "edu_tab">
+                                   Chennai Public School
+                                 </td>
+                                 <td class = "edu_tab">
+                                   TNSB
+                                 </td>
+                                 <td class = "edu_tab">
+                                   2016
+                                 </td>
+                                 <td class = "edu_tab">
+                                   80.1
+                                 </td>
+                               </tr>
+                               <tr class = "edu_tab">
+                                 <td class = "edu_tab">
+                                   B.E(ECE)
+                                 </td>
+                                 <td class = "edu_tab">
+                                   Jeppiaar SRR Engeneering College
+                                 </td>
+                                 <td class = "edu_tab">
+                                   Anna University
+                                 </td>
+                                 <td class = "edu_tab">
+                                   2020
+                                 </td>
+                                 <td class = "edu_tab">
+                                   79.4
+                                 </td>
+                               </tr>
+                  </table>
+              </div>
+              <div class="table">
+                <h2 class = "info2">PROJECTS</h2>
+                <ul>
+                  <li>
+                    Smart system for agriculture management.
+                  </li>
+                  <li>
+                    Smart Home management device to control 'n' switches at a time.
+                  </li>
+                  <li>
+                    Paper - Wireless Power Transformation.
+                  </li>
+                  <li>
+                    Smart Watch with health monitoring system.
+                  </li>
+                </ul>
+              </div>
+              <div class="table">
+                <h2 class="info2">CERTIFICATIONS</h2>
+                <ul>
+                  <li>
+                    Intern in technical functions at <b>Robert Bosch</b>
+                  </li>
+                  <li>
+                    Smart India Hackathon under Cyient organisation for five days
+                  </li>
+                  <li>
+                    District 12th in Chess
+                  </li>
+                  <li>
+                    3rd in paper presentation at national level tech symposium.
+                  </li>
+                  <li>
+                    Published paper in IJSR journal.
+                  </li>
+                  <li>
+                    Finalist in several product development competitions under recogonized universities.
+                  </li>
+                </ul>
+              </div>
+              
+                <div class="table">
+                  <h2 class="info2">RESPONSIBILITIES UNDERTAKEN</h2>
+                  <ul>
+                    <li>
+                      Lead team in several product development competitions.
+                    </li>
+                    <li>
+                      Lead football team in school.
+                    </li>
+                    <li>
+                      Organised and helped several cultural events.
+                    </li>
+                  </ul>
+                </div>
+                <div class="table">
+                  <h2 class="info2">EXTRA CURRICULAR ACTIVITIES:</h2>
+                  <ul>
+                    <li>
+                      Music Composition and Album writting.
+                    </li>
+                    <li>
+                      Interested to learn technologies,frameworks and build product
+                    </li>
+                    <li>
+                      Active sports man
+                    </li>
+                  </ul>
+                </div>
+
+            </div>
+          </div>
+          <div class="splitleft">
+            <div class="centeredl">
+              <br />
+              <br />
+              <br />
+              <div class="software">
+                <h2 class="info2">
+                  SOFTWARE SKILLS:
+                </h2>
+                <table class="proglanl">
+                  <div>
+                    <tr>
+                        <td>
+                          <p>C#</p>
+<div class="container">
+  <div class="skills html">60%</div>
+</div>
+
+<p>DART</p>
+<div class="container">
+  <div class="skills css">65%</div>
+</div>
+
+<p>HTML</p>
+<div class="container">
+  <div class="skills js">60%</div>
+</div>
+
+<p>CSS</p>
+<div class="container">
+  <div class="skills php">60%</div>
+</div>
+                          </td>
+                          <td>
+                            <div class="ide">
+                              <p>ANDROID STUDIO</p>
+                              <div class="container">
+                                <div class="skills js">60%</div>
+                              </div>
+                              <p>FLUTTER</p>
+                              <div class="container">
+                                <div class="skills php">60%</div>
+                              </div>
+                            </div>
+
+                          </td>
+                      </tr>
+                  </div>
+                  <br />
+                 <br />
+                  </table>
+              </div>
+                  <br />
+                  <br />
+                  <div class="software">
+                      <tr>
+                        <th>
+                          <br />
+                          <br />
+                          <h2 class="info2">OTHER SKILLS :</h2>
+                          </th>
+                          <td>
+                            <ul>
+                              <li>
+                                  Singer
+                              </li>
+                              <br />
+                              <li>
+                                  Keyboardist
+                              </li>
+                              <br />
+                              <li>
+                                  Handball
+                              </li>
+                              <br />
+                              <li>
+                                  Football
+                              </li>
+                              <br />
+                            </ul>
+                          </td>
+                        </tr>
+                    </div>
+                  </div>
+
+            </div>
+          </div>
+
+      </div>
+     <br />
+     <br />
+      <div class="line">
+
+      </div>
+      <div>
+        <h2 class = "dec">DECLARATION</h2>
+      <p><i>  I hereby declare that the information mentioned above is correct upto my knowledge and
+        bear the responsibility for the correction of the mentioned particulars.</i>
+          <div class="auth">
+            <h4 class = "int">Yours Sincerely</h4>
+            <i><p class = "int">G.Sasikumar</p></i>
+          </div>
+        </p>
+        <table>
+          <tr>
+            <th>
+              Place:
+            </th>
+            <td>
+              Chennai
+            </td>
+          </tr>
+        </table>
+        <div class="line">
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
